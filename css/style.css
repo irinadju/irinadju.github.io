@@ -78,6 +78,8 @@ footer p{
     margin-left: 10px;
 }
 
+/* aesthetics */
+
 #introduction{
     background-color: rgba(247, 228, 171, 0.846);
     border: solid 3px rgba(219, 182, 69, 0.846);
@@ -204,9 +206,9 @@ td{
     padding: 1.5px 6px 2px 6px; 
 }
 
-th{
-    text-align:left; 
+th{ 
     border-bottom: 2px solid #222; 
+    text-align:left;
 }
 
 
