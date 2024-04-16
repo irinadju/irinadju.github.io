@@ -34,8 +34,6 @@ footer{
     grid-column: 1 / -1;
 }
 
-
-
 main{
     display: grid;
     grid-template-columns: 285px 380px 285px;
@@ -61,8 +59,7 @@ main{
 }
 
 #economy{
-    grid-column: 3;
-    
+    grid-column: 3;    
 }
 
 section{
@@ -83,22 +80,27 @@ footer p{
 
 #introduction{
     background-color: rgba(247, 228, 171, 0.846);
+    border: solid 3px rgba(219, 182, 69, 0.846);
 }
 
 #geography{
-    background-color: rgb(110, 142, 103);;
+    background-color: rgb(110, 142, 103);
+    border: solid 3px rgb(88, 111, 82);
 }
 
 #people-and-society{
     background-color: rgb(243, 240, 240);
+    border: solid rgb(174, 172, 172);
 }
 
 #economy{
     background-color: rgba(124, 27, 16, 0.5);
+    border: solid 3px rgb(124, 27, 16, 0.5);
 }
 
 footer{
     background-color: rgba(247, 228, 171, 0.846);
+    border: solid 3px rgba(219, 182, 69, 0.846);
 }
 
 
