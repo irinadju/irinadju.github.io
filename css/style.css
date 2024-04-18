@@ -185,7 +185,7 @@ figcaption{
 
 #photo1{
     grid-column: 1;
-    margin: auto; 
+    margin: 0 auto; 
 }
 
 #photo2{
