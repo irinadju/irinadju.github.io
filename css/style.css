@@ -80,6 +80,30 @@ footer p{
 
 /* aesthetics */
 
+p,
+ul{
+    line-height: 1.3;
+}
+
+h1{
+    font-family: "Reddit Mono","Roboto","Bahnschrift","Arial",sans-serif;
+    font-weight: 900; 
+    font-size: 30px;
+}
+
+h2{
+    font-family: "Reddit Mono","Roboto","Bahnschrift","Arial",sans-serif;
+    font-weight: 700; 
+    font-size: 20px;
+}
+
+h3{
+    font-family: "Reddit Mono","Roboto","Bahnschrift","Arial",sans-serif;
+    font-weight: 500; 
+    font-size: 18px;
+    text-decoration: underline;
+}
+
 #introduction{
     background-color: rgba(247, 228, 171, 0.846);
     border: solid 3px rgba(219, 182, 69, 0.846);
@@ -133,7 +157,7 @@ img{
 
 figcaption{
     color: #222;
-    font-family: "Reddit Mono","Book-Antiqua","Arial",sans-serif;
+    font-family: "Reddit Mono","Roboto","Bahnschrift","Arial",sans-serif;
     font-weight: 400; 
     font-size: 12px;
     text-align: left;
