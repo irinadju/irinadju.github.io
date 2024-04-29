@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    color: #222;
+    font-family: "Roboto","Calibri","Arial",sans-serif;
+    font-weight: 400; 
+    font-size: 16px;  
+    
+    display: grid;
+    grid-template-columns: 960px;
+    grid-gap: 10px;
+    margin: 0 auto;
+    padding: 20px; 
+    max-width: 960px;
+    
+}
+
+header{
+    grid-column: 1 / -1;
+    margin: 0 auto;
+}
+
+footer p{
+    margin-left: 10px;
+    line-height: 0.60;
+}
+
+section h2{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+section ul{
+    padding: 0 15px; 
+}
+
+p{
+    line-height: 1.1;
+}
+
+ul{
+    line-height: 1.3;
+}
+
+footer{
+    background-color: rgba(211, 212, 210, 0.3);
+    border: solid 2px #222;
+    padding: 0;   
+}
+
+h1{
+    font-family: "Roboto","Bahnschrift","Arial",sans-serif;
+    font-weight: 900; 
+    font-size: 30px;
+}
+
+h2{
+    font-family: "Roboto","Bahnschrift","Arial",sans-serif;
+    font-weight: 700; 
+    font-size: 20px;
+}
+
+h3{
+    font-family: "Roboto","Bahnschrift","Arial",sans-serif;
+    font-weight: 500; 
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+a,
+a:link{
+    color: rgb(9, 14, 9);    
+}
+
+a:visited{
+    color: rgb(158, 115, 187);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(100, 122, 101);
+}
+
+a:active{
+    color:rgba(165, 143, 163, 0.812);
+    text-decoration: none;
+}
+
+/* research */
+
+#other-experiences{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    margin: 0 auto;   
+}
+
+
+#labwork{
+    grid-column: 1 / -1;
+}
+
+#conferences{
+    grid-column: 1;
+    padding: 0 10px;
+}
+
+#oe-h2{
+    grid-column: 2;
+    padding: 10px 0 5px;
+}
+#coursework{
+    grid-column: 2;
+    padding: 0 10px;
+}
+
+#honors{
+    grid-column: 3;
+    padding: 0 10px;
+}
+
+#labwork{
+    padding: 10px; 
+}
+
+#navigation{
+    padding: 10px 25px; 
+    margin: 0 auto; 
+    max-width: 960px;  
+    overflow: auto; 
+}
+
+
+#labwork{
+    background-color: rgba(221, 237, 211, 0.846);
+    border: solid 3px rgba(71, 94, 3, 0.846);
+}
+
+#conferences, 
+#coursework, 
+#honors{
+    background-color: rgba(176, 207, 157, 0.836);
+    border: solid 3px rgba(71, 94, 3, 0.846);
+}
+
+/* travel */
+
+#travel-navigation{
+    padding: 10px 25px; 
+    margin: 0 auto; 
+    max-width: 960px;  
+    overflow: auto;
+    border: solid 3px rgba(210, 247, 246, 0.414); 
+}
+
+#travel-timeline{
+    display: grid;
+    grid-template-columns: 960px;
+    grid-gap: 15px;
+    margin: 0 auto; 
+    max-width: 960px;
+    border: 3px #222;
+}
+
+#travel-intro{
+    background-color: rgba(210, 222, 221, 0.5);
+    border: solid 3px rgba(210, 247, 246, 0.414);
+    padding: 0 10px;
+}
+
+#tt-h2{
+    padding-top: 20px;
+}
+
+#montenegro{
+    border: 3px dashed #222;
+    padding: 0 10px;
+}
+
+#italy{
+    border: 3px dashed #222;
+    padding: 0 10px;
+}
+
+#philippines{
+    border: 3px dashed #222;
+    padding: 0 10px;
+}
+
+#italytwo{
+    border: 3px dashed #222;
+    padding: 0 10px;
+}
+
+#florida{
+    border: 3px dashed #222;
+    padding: 0 10px;
+}
+
+#next{
+    border: 3px dashed #222;
+    padding: 0 10px;
+}
+
+#h3-travel{
+    margin-top: 10px;
+}
+
+figure{
+    border: 1px solid #222; 
+    margin: 0; 
+    padding: 15px 15px 25px 15px; 
+    width: 452px; 
+}
+
+img{
+    border: 1px solid #222; 
+}
+
+figcaption{
+    color: #222;
+    font-family: "Reddit Mono","Roboto","Bahnschrift","Arial",sans-serif;
+    font-weight: 400; 
+    font-size: 12px;
+    text-align: left;
+}
+
+
+#photo1,
+#photo2,
+#photo3,
+#photo4,
+#photo5,
+#photo6{
+    margin: 0 auto;
+    margin-bottom: 15px;
+} 
+
+/* homepage */
+
+#intromain{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 15px;
+    margin: 0 auto; 
+    max-width: 960px;
+}
+
+#home-intro{
+    grid-column: 1 / 2;
+    background-color: rgba(247, 211, 252, 0.4);
+    padding: 0 10px; 
+}
+
+#university{
+    grid-column: 2 / 4;
+    background-color:rgba(219, 206, 191, 0.2); 
+    padding: 0 10px;
+}
+
+#home-navigation{
+    padding: 10px 25px; 
+    margin: 0 auto; 
+    border: solid 3px rgba(165, 143, 163, 0.103)
+}
+
+
+
