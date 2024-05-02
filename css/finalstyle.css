@@ -35,7 +35,7 @@ section ul{
 }
 
 p{
-    line-height: 1.1;
+    line-height: 1.3;
 }
 
 ul{
@@ -148,7 +148,7 @@ a:active{
 }
 
 #labwork{
-    padding: 10px; 
+    padding: 0 10px; 
 }
 
 #navigation{
